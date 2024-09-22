@@ -133,7 +133,7 @@ from
 where ranking=1
 ```
 
-8. **Write a SQL query to find the top 5 customers based on the highest total sales **:
+8. **Write a SQL query to find the top 5 customers based on the highest total sales**:
 ```sql
 select customer_id, sum(total_sale)
 from retail_sales
